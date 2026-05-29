@@ -12,7 +12,7 @@ import TelegramIcon from '../../Icon/TelegramIcon';
 import TwitterIcon from '../../Icon/TwitterIcon';
 import Section from '../../Layout/Section';
 import ContactForm from './ContactForm';
-
+ 
 const ContactValueMap: Record<ContactType, ContactValue> = {
   [ContactType.Email]: {Icon: EnvelopeIcon, srLabel: 'Email'},
   [ContactType.Phone]: {Icon: DevicePhoneMobileIcon, srLabel: 'Phone'},

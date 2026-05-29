@@ -98,9 +98,11 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Information Technology Engineer | Network & Systems Specialist | Flutter Developer
+
+Passionate IT Engineer with over 2 years of experience in network engineering, systems management, and mobile application development. Specialized in building modern, high-performance applications using Flutter & Dart, with a strong focus on clean architecture, scalable solutions, and seamless user experiences.
+
+Experienced in API integration, backend connectivity, and responsive UI development, with a solid understanding of the complete software development lifecycle. Always eager to learn new technologies, solve complex problems, and create impactful digital solutions.`,
   aboutItems: [
     {label: 'Location', text: 'Syria, Tartous', Icon: MapIcon},
     {label: 'Age', text: '24', Icon: CalendarIcon},
