@@ -66,7 +66,7 @@ Of course, all of the code is there and nothing is hidden from you so if you wou
 
 Deploying your new site to Vercel is simple, and can be done by following their guide [here.](https://vercel.com/guides/deploying-nextjs-with-vercel) When you're all done and the build succeeds, you should be given a url for your live site, go there and you'll see your new personal resume website! Congratulations!
 
-## Project Created & Maintained By
+<!-- ## Project Created & Maintained By
 
 ### Tim Baker
 
@@ -81,4 +81,4 @@ Deploying your new site to Vercel is simple, and can be done by following their 
 ## Forkers
 
 [![Forkers repo roster for @tbakerx/react-resume-template](https://reporoster.com/forks/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/network/members)
-
+ -->

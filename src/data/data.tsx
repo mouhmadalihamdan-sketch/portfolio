@@ -21,6 +21,7 @@ import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -31,7 +32,6 @@ import {
   PortfolioItem,
   SkillGroup,
   Social,
-  // TestimonialSection,
   TimelineItem,
 } from './dataDef';
 
@@ -119,12 +119,12 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
-        level: 9,
+        name: 'Arabic',
+        level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'English',
+        level: 8,
       },
       {
         name: 'German',
@@ -133,42 +133,51 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Mobile development:',
     skills: [
-      {
-        name: 'React',
-        level: 4,
-      },
-      {
-        name: 'Typescript',
-        level: 2,
-      },
-      {
-        name: 'GraphQL',
-        level: 3,
-      },
-    ],
-  },
-  
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'Dart',
-        level: 9,
-      },
       {
         name: 'Flutter',
         level: 9,
       },
+    
       {
-        name: 'Swift',
-        level: 3,
+        name: 'REST APIs',
+        level: 8,
+      },
+        {
+        name: 'Firebase',
+        level: 6,
+      },
+    ],
+  },
+  
+ {
+    name: 'Soft Skills' ,
+    skills: [
+      {
+        name: 'Proplem-Solving',
+        level: 7,
+      },
+       {
+        name: ' Team-Working, ',
+        level: 8,
       },
 
-      {name:'React Native' ,
-        level: 2 ,
+   {
+        name: ' Fast Learner',
+        level: 9,
       },
+    ],
+  },
+
+  {
+    name: 'Databases',
+    skills: [
+      {
+        name: 'SQL, SQLite',
+        level: 7,
+      },
+ 
     ],
   },
 ];
@@ -184,7 +193,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Focal X community',
-    description: 'Give a short description of your project here.',
+    description: 'Focal X Community is a comprehensive platform and community dedicated to freelancers, developers, and designers, aiming to bring everything a freelancer needs together in one place.',
     image: porfolioImage10 ,
   },
   {
@@ -194,7 +203,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Focal X community',
-    description: 'Give a short description of your project here.',
+    description: 'The app provides educational and professional content to help users develop their skills, stay up-to-date on the latest job opportunities.',
     image: porfolioImage6,
   },
   {
@@ -209,7 +218,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Focal X community',
-    description: 'Give a short description of your project here.',
+    description: 'connect with a tech community interested in programming, design, and freelancing.',
     image: porfolioImage7,
   },
   {
@@ -220,8 +229,19 @@ export const portfolioItems: PortfolioItem[] = [
 
   {
     title: 'Focal X community',
-    description: 'Give a short description of your project here.',
+    description: 'The app contains several sections, including Educational and technical articles Podcasts and helpful discussions News and job opportunities A gallery of user work and creations Various content categories Settings and account management profile .',
     image: porfolioImage8,
+  },
+
+  //  {
+  //   title: 'Focal X community',
+  //   description: 'The app contains several sections, including Educational and technical articles Podcasts and helpful discussions News and job opportunities A gallery of user work and creations Various content categories Settings and account management profile .',
+  //   image: porfolioImage9,
+  // },
+   {
+    title: 'SYJOB',
+    description: '',
+    image: porfolioImage11 ,
   },
 ];
 
@@ -282,8 +302,12 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'mouhmadalihamdan@gmail.com',
-      href: 'mailto:reachout@timbaker.me',
+ href: 'mailto:mouhmadalihamdan@gmail.com',
+             text: 'mouhmadalihamdan@gmail.com',
+
+
+
+      // href: 'mailto:reachout@timbaker.me',
     },
     {
       type: ContactType.Location,
@@ -300,6 +324,11 @@ export const contact: ContactSection = {
       text: 'Mohmad',
       href: 'https://www.linkedin.com/in/mouhmad-hamdan-12b755395?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     },
+  {
+  type: ContactType.Telegram ,
+  text: '@mohammadm554',
+  href: 'https://t.me/mohammadm554',
+},
   ],
 };
 
@@ -308,7 +337,7 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/mouhmad-hamdan-12b755395?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/mohmad_homdan?igsh=MW1qaG9qM3I4cDV2aA=='},
   {label: 'Facebook', Icon: FacebookIcon, href: 'https://www.facebook.com/share/1BXTwZ3N1K/'},
 ];
